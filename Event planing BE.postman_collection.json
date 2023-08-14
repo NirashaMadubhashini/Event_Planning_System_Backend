@@ -1,0 +1,183 @@
+{
+	"info": {
+		"_postman_id": "f4d92d77-2ad8-4e4f-ba07-276ee669fcf6",
+		"name": "Event planing BE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14398329",
+		"_collection_link": "https://speeding-firefly-532579.postman.co/workspace/Car-rental-system~879beb92-71d7-4c85-9762-943e09d1ec0e/collection/14398329-f4d92d77-2ad8-4e4f-ba07-276ee669fcf6?action=share&creator=14398329&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Get all customers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/customer/199935810379",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"customer",
+						"199935810379"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all customer ratings",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/customer/view-all/ratings/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"customer",
+						"view-all",
+						"ratings",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add customer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cusName\": \"Geeth Malinda\",\r\n    \"address\": \"Galle\",\r\n    \"nic\": \"200004012365\",\r\n    \"email\": \"geethMalinda@gmail.com\",\r\n    \"contactNo\": \"119\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/customer/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"customer",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add vendor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vendorNic\": \"11\",\r\n    \"vendorName\": \"Geeth\",\r\n    \"address\": \"Address\",\r\n    \"email\": \"geethMalinda@gmail.com\",\r\n    \"contactNo\": \"119\",\r\n    \"companyName\":\"asfa\",\r\n    \"serviceType\":\"uysdf\",\r\n    \"price\": 1000.00,\r\n    \"portfolio\":\"usdg\",\r\n    \"city\":\"Galle\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/vendor/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"vendor",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Filter vendor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"serviceType\":\"uysdf\",\r\n    \"city\":\"Galle\",\r\n    \"page\": \"0\",\r\n    \"size\": \"10\",\r\n    \"sortField\": \"status\",\r\n    \"sortOrder\": \"ASC\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/vendor/filter/details",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"vendor",
+						"filter",
+						"details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add customer ratings",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nic\": \"199935810379\",\r\n    \"vendorNic\": \"10\",\r\n    \"ratings\": 4.5,\r\n    \"reviews\": \"Much love\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/customer/add/rating",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"customer",
+						"add",
+						"rating"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
