@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a04086c4-2daa-4800-aabf-6997219bdbaf" name="Default Changelist" comment="Update">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/eventPlaning/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/eventPlaning/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/eventPlaning/entity/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/eventPlaning/entity/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/eventPlaning-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/eventPlaning-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/eventPlaning-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/eventPlaning-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +49,8 @@
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -129,7 +123,9 @@
       <workItem from="1692071662563" duration="7233000" />
       <workItem from="1692163901483" duration="1879000" />
       <workItem from="1692427818762" duration="1847000" />
-      <workItem from="1692529595509" duration="318000" />
+      <workItem from="1692529595509" duration="1681000" />
+      <workItem from="1692879337461" duration="1294000" />
+      <workItem from="1693120507573" duration="4238000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1691994828374</created>
@@ -138,7 +134,154 @@
       <option name="project" value="LOCAL" />
       <updated>1691994828374</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update">
+      <created>1692530991937</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692530991937</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update">
+      <created>1692531035707</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692531035707</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update">
+      <created>1692531113363</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692531113363</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update">
+      <created>1692531299173</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692531299173</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update">
+      <created>1692531305056</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692531305056</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update">
+      <created>1692531310748</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692531310748</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update">
+      <created>1692531315953</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1692531315953</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update">
+      <created>1692531320968</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692531320968</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update">
+      <created>1692531328508</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1692531328508</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update">
+      <created>1692531335208</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692531335208</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update">
+      <created>1692531340144</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1692531340144</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Update">
+      <created>1692531344660</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1692531344660</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Update">
+      <created>1692531349367</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1692531349367</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Update">
+      <created>1692531355348</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1692531355348</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Update">
+      <created>1692531360375</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1692531360375</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Update">
+      <created>1692531364158</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1692531364158</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Update">
+      <created>1692531368000</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1692531368001</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Update">
+      <created>1692531372177</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1692531372177</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Update">
+      <created>1692531376274</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1692531376274</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Update">
+      <created>1692531380456</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1692531380456</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Update">
+      <created>1692531384488</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1692531384488</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
