@@ -6,7 +6,7 @@
  Source Server Version : 80030
  Source Host           : localhost:3306
  Source Schema         : eventplaningsystem
- USER				   : Sahan Nimesha
+ USER				   : Nirasha Madubhashini
 
  Target Server Type    : MySQL
  Target Server Version : 80030
