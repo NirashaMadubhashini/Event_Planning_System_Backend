@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a04086c4-2daa-4800-aabf-6997219bdbaf" name="Default Changelist" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/eventplaningsystem.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/eventplaningsystem.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +140,8 @@
       <workItem from="1697697813909" duration="1948000" />
       <workItem from="1697797415558" duration="1337000" />
       <workItem from="1697955500395" duration="1429000" />
+      <workItem from="1697982288728" duration="71000" />
+      <workItem from="1697992153944" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1691994828374</created>
@@ -303,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693201464424</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Update">
+      <created>1697982334265</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1697982334265</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
