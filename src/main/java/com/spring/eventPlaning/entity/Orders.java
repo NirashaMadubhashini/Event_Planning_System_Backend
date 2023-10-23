@@ -11,13 +11,12 @@ import java.util.List;
 @NoArgsConstructor
 @Data
 @Entity
-@Table(name = "orders")
-public class Order {
+public class Orders {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long orderId;
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "order")
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "orders")
     private List<PlaceOrder> placeOrders;
     private String status;
     private Long totalPrice;
