@@ -4,7 +4,7 @@ import com.spring.eventPlaning.dto.CustomerDTO;
 import com.spring.eventPlaning.dto.OrderDTO;
 import com.spring.eventPlaning.dto.RatingsDTO;
 import com.spring.eventPlaning.entity.Customer;
-import com.spring.eventPlaning.entity.Order;
+import com.spring.eventPlaning.entity.Orders;
 import com.spring.eventPlaning.entity.PlaceOrder;
 import com.spring.eventPlaning.entity.Ratings;
 import com.spring.eventPlaning.exception.RecordAlreadySubmittedException;
@@ -106,19 +106,19 @@ public class CustomerServiceImpl implements CustomerService {
 
 
     @Override
-    public Order saveOrder(OrderDTO orderDTO) {
-        Order order = new Order();
-        order.setStatus(orderDTO.getStatus());
-        order.setTotalPrice(orderDTO.getTotalPrice());
+    public Orders saveOrder(OrderDTO orderDTO) {
+        Orders orders = new Orders();
+        orders.setStatus(orderDTO.getStatus());
+        orders.setTotalPrice(orderDTO.getTotalPrice());
 
         List<PlaceOrder> placeOrders = orderDTO.getPlaceOrders();
         if (placeOrders != null) {
             for (PlaceOrder placeOrder : placeOrders) {
-                placeOrder.setOrder(order);
+                placeOrder.setOrders(orders);
             }
-            order.setPlaceOrders(placeOrders);
+            orders.setPlaceOrders(placeOrders);
         }
-        return orderRepository.save(order);
+        return orderRepository.save(orders);
     }
 }
 
