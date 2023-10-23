@@ -4,7 +4,7 @@ import com.spring.eventPlaning.dto.EventDTO;
 import com.spring.eventPlaning.dto.OrderDTO;
 import com.spring.eventPlaning.dto.PackagesDTO;
 import com.spring.eventPlaning.dto.ServicesDTO;
-import com.spring.eventPlaning.entity.Order;
+import com.spring.eventPlaning.entity.Orders;
 
 import java.util.List;
 
@@ -39,7 +39,7 @@ public interface AdminService {
 
     String updatePackage(PackagesDTO dto);
 
-    Order changeStatusAdmin(OrderDTO dto);
+    Orders changeStatusAdmin(OrderDTO dto);
 
 
 }
