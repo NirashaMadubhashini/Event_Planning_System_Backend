@@ -4,7 +4,7 @@ import com.spring.eventPlaning.dto.OrderDTO;
 import com.spring.eventPlaning.dto.PageableDTO;
 import com.spring.eventPlaning.dto.VendorDTO;
 import com.spring.eventPlaning.dto.VendorFilterDTO;
-import com.spring.eventPlaning.entity.Order;
+import com.spring.eventPlaning.entity.Orders;
 import com.spring.eventPlaning.entity.SuperEntity;
 import com.spring.eventPlaning.entity.Vendor;
 import com.spring.eventPlaning.exception.RecordAlreadySubmittedException;
@@ -25,6 +25,7 @@ import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
 import java.lang.reflect.Field;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Optional;
@@ -155,9 +156,22 @@ public class VendorServiceImpl implements VendorService {
 
     @Override
     public String saveOrder(OrderDTO dto) throws RecordAlreadySubmittedException {
-        Order order = mapper.map(dto, Order.class);
-        orderRepo.save(order);
+        Orders orders = mapper.map(dto, Orders.class);
+        orderRepo.save(orders);
         return SAVE_SUCCESSFUL;
+    }
+
+    @Override
+    public List<VendorDTO> searchServices(String serviceType) {
+        List<Vendor> searchByServiceType = repo.findByServiceName(serviceType);
+
+        List<VendorDTO> vendorDTOs = new ArrayList<>();
+        for (Vendor vendor : searchByServiceType) {
+            VendorDTO vendorDTO = vendor.toDto();
+            vendorDTOs.add(vendorDTO);
+        }
+
+        return vendorDTOs;
     }
 }
 
