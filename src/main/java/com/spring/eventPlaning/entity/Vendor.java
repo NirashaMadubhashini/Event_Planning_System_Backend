@@ -17,8 +17,7 @@ import java.util.Date;
 @Entity
 public class Vendor extends SuperEntity<VendorDTO> {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long vendorId;
+    @GeneratedValue(strategy = GenerationType.AUTO)  private Long vendorId;
     private String vendorNic;
     private String vendorName;
     private String address;
@@ -35,6 +34,7 @@ public class Vendor extends SuperEntity<VendorDTO> {
     private Date startDate;
     @Temporal(TemporalType.TIMESTAMP)
     private Date endDate;
+
 
     @Override
     public VendorDTO toDto() {
