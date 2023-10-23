@@ -201,17 +201,17 @@ public class AdminServiceImpl implements AdminService {
     }
 
     @Override
-    public Order changeStatusAdmin(OrderDTO orderDTO) throws RecordNotFoundException {
-        Order existingOrder = orderRepo.findById(orderDTO.orderId).orElse(null);
-        if (null == existingOrder) {
+    public Orders changeStatusAdmin(OrderDTO orderDTO) throws RecordNotFoundException {
+        Orders existingOrders = orderRepo.findById(orderDTO.orderId).orElse(null);
+        if (null == existingOrders) {
             throw new RecordNotFoundException(EVENT_NOT_FOUND);
         }
 
-        existingOrder.setStatus(orderDTO.getStatus());
-        existingOrder.setTotalPrice(orderDTO.getTotalPrice());
-        existingOrder.setPlaceOrders(orderDTO.getPlaceOrders());
+        existingOrders.setStatus(orderDTO.getStatus());
+        existingOrders.setTotalPrice(orderDTO.getTotalPrice());
+        existingOrders.setPlaceOrders(orderDTO.getPlaceOrders());
 
-        return orderRepo.save(existingOrder);
+        return orderRepo.save(existingOrders);
     }
 }
 
