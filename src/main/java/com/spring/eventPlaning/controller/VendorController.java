@@ -121,4 +121,18 @@ public class VendorController {
             return new ResponseEntity<>(ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
+
+    //    @RolesAllowed("order-type-wise")
+    @GetMapping(path ="/filter/order/typeWise/{serviceName}")
+    public ResponseEntity<?> getServicesTypeWise(@PathVariable String serviceName) {
+        try {
+            return ResponseEntity.ok(vendorService.searchServices(serviceName));
+        } catch (RecordNotFoundException e) {
+            log.error(e.getMessage(), e);
+            return ResponseEntity.status(HttpCustomStatus.RECORD_NOT_FOUND).body(e.getMessage());
+        } catch (BaseException ex) {
+            log.error(ex.getMessage(), ex);
+            return new ResponseEntity<>(ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
 }
