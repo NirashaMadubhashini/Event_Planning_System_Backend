@@ -3,7 +3,7 @@ package com.spring.eventPlaning.service;
 import com.spring.eventPlaning.dto.CustomerDTO;
 import com.spring.eventPlaning.dto.OrderDTO;
 import com.spring.eventPlaning.dto.RatingsDTO;
-import com.spring.eventPlaning.entity.Order;
+import com.spring.eventPlaning.entity.Orders;
 import com.spring.eventPlaning.entity.Ratings;
 
 import java.util.List;
@@ -23,5 +23,5 @@ public interface CustomerService {
 
     List<Ratings> searchCustomerRatings(String vendorNic);
 
-    Order saveOrder(OrderDTO orderDTO);
+    Orders saveOrder(OrderDTO orderDTO);
 }
