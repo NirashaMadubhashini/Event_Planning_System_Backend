@@ -22,4 +22,7 @@ public interface VendorService {
     List<VendorDTO> getAllVendors();
 
     Page<VendorDTO> filterVendorDetails(VendorFilterDTO pageableDto) throws JDBCException;
+
+    List<VendorDTO> searchServices(String serviceType);
+
 }
