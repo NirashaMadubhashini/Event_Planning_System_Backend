@@ -52,7 +52,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Esoft/Final Project/Event_Planning_System_Backend/Event_Planning_System_Backend/src/main/java/com/spring/eventPlaning&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Esoft/Final Project/Clone_Gee/event-planing-frontend&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -156,7 +156,13 @@
       <workItem from="1698222894877" duration="430000" />
       <workItem from="1698388201488" duration="1484000" />
       <workItem from="1698851909145" duration="2801000" />
-      <workItem from="1700225490169" duration="5374000" />
+      <workItem from="1700225490169" duration="5763000" />
+      <workItem from="1701521927524" duration="1177000" />
+      <workItem from="1703256910672" duration="1160000" />
+      <workItem from="1703614412083" duration="77000" />
+      <workItem from="1703614624581" duration="985000" />
+      <workItem from="1704084889529" duration="1353000" />
+      <workItem from="1704097752251" duration="539000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1691994828374</created>
@@ -487,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698854296775</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Update">
+      <created>1700502407871</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1700502407871</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
