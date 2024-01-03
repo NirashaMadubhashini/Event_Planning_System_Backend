@@ -3,7 +3,6 @@ package com.spring.eventPlaning.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.spring.eventPlaning.entity.SuperEntity;
 import com.spring.eventPlaning.enums.RecordStatus;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

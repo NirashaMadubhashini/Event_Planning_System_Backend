@@ -1,6 +1,5 @@
 package com.spring.eventPlaning.repo.impl;
 
-import com.spring.eventPlaning.entity.Vendor;
 import com.spring.eventPlaning.exception.JdbcException;
 import com.spring.eventPlaning.exception.RecordNotFoundException;
 import com.spring.eventPlaning.repo.VendorFilterRepo;

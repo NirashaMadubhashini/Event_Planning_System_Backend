@@ -1,8 +1,5 @@
 package com.spring.eventPlaning.service;
 
-import com.spring.eventPlaning.entity.Orders;
-import com.spring.eventPlaning.entity.Ratings;
-
 import java.util.List;
 
 public interface CustomerService {

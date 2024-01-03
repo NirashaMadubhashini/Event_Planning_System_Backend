@@ -1,8 +1,5 @@
 package com.spring.eventPlaning.service.impl;
 
-import com.spring.eventPlaning.entity.Orders;
-import com.spring.eventPlaning.entity.SuperEntity;
-import com.spring.eventPlaning.entity.Vendor;
 import com.spring.eventPlaning.exception.RecordAlreadySubmittedException;
 import com.spring.eventPlaning.exception.RecordNotFoundException;
 import com.spring.eventPlaning.repo.OrderRepo;

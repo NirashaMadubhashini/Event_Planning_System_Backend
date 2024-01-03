@@ -1,7 +1,5 @@
 package com.spring.eventPlaning.service;
 
-import com.spring.eventPlaning.entity.Orders;
-
 import java.util.List;
 
 public interface AdminService {
