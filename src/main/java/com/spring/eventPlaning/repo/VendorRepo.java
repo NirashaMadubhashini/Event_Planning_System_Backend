@@ -1,5 +1,6 @@
 package com.spring.eventPlaning.repo;
 
+import com.spring.eventPlaning.entity.Vendor;
 import com.spring.eventPlaning.enums.AvailabilityStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
