@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a04086c4-2daa-4800-aabf-6997219bdbaf" name="Default Changelist" comment="Update" />
+    <list default="true" id="a04086c4-2daa-4800-aabf-6997219bdbaf" name="Default Changelist" comment="Update">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/946d30b4-94fa-4364-a9b9-6b12a1649215.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/946d30b4-94fa-4364-a9b9-6b12a1649215.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/eventPlaning/config/JwtRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/eventPlaning/config/JwtRequestFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/eventPlaning/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/eventPlaning/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,34 +49,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Esoft/Final Project/Event_Planning_System_Backend/Event_Planning_System_Backend/src/main/java/com/spring/eventPlaning/util",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "90e7107e4f2219f57d6aa7dfeb1019d6",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Esoft/Final Project/Event_Planning_System_Backend/Event_Planning_System_Backend/src/main/java/com/spring/eventPlaning/entity&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;90e7107e4f2219f57d6aa7dfeb1019d6&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Esoft\Final Project\Event_Planning_System_Backend\Event_Planning_System_Backend\src\main\java\com\spring\eventPlaning\entity" />
       <recent name="D:\Esoft\Final Project\Event_Planning_System_Backend\Event_Planning_System_Backend\src\main\java\com\spring\eventPlaning\util" />
       <recent name="D:\Esoft\Final Project\Event_Planning_System_Backend\Event_Planning_System_Backend\src\main\java\com\spring\eventPlaning" />
       <recent name="D:\Esoft\Final Project\Event_Planning_System_Backend\Event_Planning_System_Backend\src\main\java\com\spring\eventPlaning\repo\impl" />
-      <recent name="D:\Esoft\Final Project\Event_Planning_System_Backend\Event_Planning_System_Backend\src\main\java\com\spring\eventPlaning\entity" />
       <recent name="D:\Esoft\Final Project\Event_Planning_System_Backend\Event_Planning_System_Backend\src\main\java\com\spring\eventPlaning\dto" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -161,42 +169,9 @@
       <workItem from="1703614624581" duration="985000" />
       <workItem from="1704084889529" duration="1353000" />
       <workItem from="1704097752251" duration="539000" />
-      <workItem from="1704260118633" duration="1512000" />
-    </task>
-    <task id="LOCAL-00009" summary="Update">
-      <created>1692531320968</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1692531320968</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Update">
-      <created>1692531328508</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1692531328508</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Update">
-      <created>1692531335208</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1692531335208</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Update">
-      <created>1692531340144</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1692531340144</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Update">
-      <created>1692531344660</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1692531344660</updated>
+      <workItem from="1704260118633" duration="2087000" />
+      <workItem from="1704263078531" duration="1200000" />
+      <workItem from="1704271882114" duration="2091000" />
     </task>
     <task id="LOCAL-00014" summary="Update">
       <created>1692531349367</created>
@@ -506,7 +481,42 @@
       <option name="project" value="LOCAL" />
       <updated>1704262118123</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Update">
+      <created>1704262277159</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1704262277159</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Update">
+      <created>1704262323269</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1704262323269</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Update">
+      <created>1704262507963</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1704262507963</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Update">
+      <created>1704262654596</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1704262654596</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Update">
+      <created>1704262727908</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1704262727908</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,11 +570,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/spring/eventPlaning/service/impl/VendorServiceImpl.java</url>
           <line>61</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/spring/eventPlaning/controller/VendorController.java</url>
-          <line>71</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

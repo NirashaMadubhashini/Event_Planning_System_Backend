@@ -7,14 +7,11 @@
         <identifier-quote-string>`</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
-      <secret-storage>forget</secret-storage>
+      <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema">
-            <name qname="@" />
-            <name qname="eventplaningsystem" />
-          </node>
+          <node kind="schema" qname="eventplaningsystem" />
         </introspection-scope>
       </schema-mapping>
     </data-source>
