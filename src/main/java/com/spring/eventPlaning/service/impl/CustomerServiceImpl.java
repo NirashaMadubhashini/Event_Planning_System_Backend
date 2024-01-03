@@ -1,8 +1,5 @@
 package com.spring.eventPlaning.service.impl;
 
-import com.spring.eventPlaning.dto.CustomerDTO;
-import com.spring.eventPlaning.dto.OrderDTO;
-import com.spring.eventPlaning.dto.RatingsDTO;
 import com.spring.eventPlaning.entity.Customer;
 import com.spring.eventPlaning.entity.Orders;
 import com.spring.eventPlaning.entity.PlaceOrder;

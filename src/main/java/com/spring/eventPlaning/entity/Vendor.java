@@ -1,6 +1,5 @@
 package com.spring.eventPlaning.entity;
 
-import com.spring.eventPlaning.dto.VendorDTO;
 import com.spring.eventPlaning.enums.AvailabilityStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;

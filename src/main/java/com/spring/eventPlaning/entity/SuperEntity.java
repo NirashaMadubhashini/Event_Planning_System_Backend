@@ -1,6 +1,5 @@
 package com.spring.eventPlaning.entity;
 
-import com.spring.eventPlaning.dto.SuperDto;
 import com.spring.eventPlaning.enums.RecordStatus;
 import lombok.Getter;
 import lombok.Setter;
