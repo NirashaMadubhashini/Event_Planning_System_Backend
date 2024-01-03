@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a04086c4-2daa-4800-aabf-6997219bdbaf" name="Default Changelist" comment="Update">
+    <list default="true" id="a04086c4-2daa-4800-aabf-6997219bdbaf" name="Default Changelist" comment="Update pom.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,13 +163,7 @@
       <workItem from="1703614624581" duration="985000" />
       <workItem from="1704084889529" duration="1353000" />
       <workItem from="1704097752251" duration="539000" />
-    </task>
-    <task id="LOCAL-00001" summary="Update">
-      <created>1691994828374</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1691994828374</updated>
+      <workItem from="1704260118633" duration="924000" />
     </task>
     <task id="LOCAL-00002" summary="Update">
       <created>1692530991937</created>
@@ -500,7 +494,21 @@
       <option name="project" value="LOCAL" />
       <updated>1700502407871</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Update sql">
+      <created>1704260229374</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1704260229374</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Update pom.xml">
+      <created>1704260300250</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1704260300251</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,7 +531,9 @@
     <MESSAGE value="Update VendorService.java" />
     <MESSAGE value="Update VendorServiceImpl.java" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Update sql" />
+    <MESSAGE value="Update pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update pom.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
