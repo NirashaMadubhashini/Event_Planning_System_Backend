@@ -3,7 +3,6 @@ package com.spring.eventPlaning.controller;
 import com.spring.eventPlaning.dto.JwtRequest;
 import com.spring.eventPlaning.dto.JwtResponse;
 import com.spring.eventPlaning.dto.UserRegistrationDto;
-import com.spring.eventPlaning.entity.User;
 import com.spring.eventPlaning.service.AuthenticationService;
 import com.spring.eventPlaning.service.UserService;
 import com.spring.eventPlaning.util.JwtTokenUtil;

@@ -1,7 +1,6 @@
 package com.spring.eventPlaning.repo;
 
 import com.spring.eventPlaning.dto.VendorFilterDTO;
-import com.spring.eventPlaning.entity.Vendor;
 import com.spring.eventPlaning.exception.JdbcException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

@@ -1,8 +1,6 @@
 package com.spring.eventPlaning.service.impl;
 
 import com.spring.eventPlaning.dto.UserRegistrationDto;
-import com.spring.eventPlaning.entity.Role;
-import com.spring.eventPlaning.entity.User;
 import com.spring.eventPlaning.repo.RoleRepository;
 import com.spring.eventPlaning.repo.UserRepo;
 import com.spring.eventPlaning.service.UserService;
