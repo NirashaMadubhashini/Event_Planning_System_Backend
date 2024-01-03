@@ -4,7 +4,6 @@ import com.spring.eventPlaning.exception.BaseException;
 import com.spring.eventPlaning.exception.RecordAlreadySubmittedException;
 import com.spring.eventPlaning.exception.RecordNotFoundException;
 import com.spring.eventPlaning.service.AdminService;
-import com.spring.eventPlaning.util.HttpCustomStatus;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
