@@ -1289,7 +1289,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="358" parent="309" name="id">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>4</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1318,7 +1318,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>UK_8sewwnpamngi6b1dwaa88askk</UnderlyingIndexName>
     </key>
     <column id="364" parent="310" name="service_id">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>5</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1381,7 +1381,7 @@ role_id</ColNames>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="377" parent="312" name="id">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>11</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
