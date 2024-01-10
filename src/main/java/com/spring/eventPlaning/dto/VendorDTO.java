@@ -28,6 +28,7 @@ public class VendorDTO extends SuperDto<Vendor> {
     private String availability;
     private Date startDate;
     private Date endDate;
+    private String password; // New field for password
 
     @Override
     public Vendor toEntity() {

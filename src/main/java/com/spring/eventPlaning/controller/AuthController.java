@@ -3,7 +3,9 @@ package com.spring.eventPlaning.controller;
 import com.spring.eventPlaning.dto.JwtRequest;
 import com.spring.eventPlaning.dto.JwtResponse;
 import com.spring.eventPlaning.dto.UserRegistrationDto;
+import com.spring.eventPlaning.dto.VendorDTO;
 import com.spring.eventPlaning.entity.User;
+import com.spring.eventPlaning.entity.Vendor;
 import com.spring.eventPlaning.service.AuthenticationService;
 import com.spring.eventPlaning.service.UserService;
 import com.spring.eventPlaning.util.JwtTokenUtil;
@@ -58,6 +60,19 @@ public class AuthController {
         } catch (Exception e) {
             // Handle generic exceptions
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("An error occurred during registration");
+        }
+    }
+
+
+    @PostMapping("/register/vendor")
+    public ResponseEntity<?> registerVendor(@RequestBody VendorDTO vendorDTO) {
+        try {
+            Vendor newVendor = userService.registerVendor(vendorDTO);
+            return ResponseEntity.status(HttpStatus.CREATED).body("Vendor registered successfully");
+        } catch (UsernameNotFoundException e) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("An error occurred during vendor registration");
         }
     }
 

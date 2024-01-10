@@ -21,8 +21,6 @@ import java.util.Date;
 @EntityListeners(AuditingEntityListener.class)
 public abstract class SuperEntity<D extends SuperDto> {
 
-    //    private static final int HOURS = 5;
-    //    private static final int MINUTES = 30;
     @Column(nullable = false, updatable = false)
     @CreatedBy
     private String createdBy = "";
@@ -37,10 +35,16 @@ public abstract class SuperEntity<D extends SuperDto> {
     @LastModifiedDate
     private Date modifiedDate;
 
+    @PrePersist
+    protected void onCreate() {
+        if (createdDate == null) {
+            createdDate = new Date(); // Set the current date/time as default
+        }
+    }
+
     public abstract D toDto();
 
     protected void setAuditDetail(D d) {
-
         d.setCreatedBy(createdBy);
         d.setCreatedDate(createdDate);
         d.setModifiedBy(modifiedBy);
@@ -48,4 +52,3 @@ public abstract class SuperEntity<D extends SuperDto> {
         d.setRecordStatus(recordStatus);
     }
 }
-
